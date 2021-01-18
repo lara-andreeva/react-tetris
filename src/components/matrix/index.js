@@ -147,6 +147,7 @@ export default class Matrix extends React.Component {
       matrix = this.state.overState;
     } else {
       matrix = this.getResult();
+      console.log(matrix)
     }
     return (
       <div className={style.matrix}>{
